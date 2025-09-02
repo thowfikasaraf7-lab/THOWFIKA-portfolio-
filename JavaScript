@@ -1,0 +1,7 @@
+// JavaScript to toggle background color on button click
+
+document.getElementById('contactBtn').addEventListener('click', () => {
+  const currentColor = document.body.style.backgroundColor;
+  document.body.style.backgroundColor =
+    currentColor === 'white' ? '#f0f4f8' : 'white';
+});
