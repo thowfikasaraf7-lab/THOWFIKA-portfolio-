@@ -1,0 +1,45 @@
+/* Global Styles */
+
+* {
+
+  box-sizing: border-box;
+
+  margin: 0;
+
+  padding: 0;
+
+  transition: all 0.3s ease; /* Smooth transitions */
+
+}
+
+body {
+
+  font-family: 'Segoe UI', sans-serif;
+
+  background-color: #f0f4f8;
+
+  color: #333;
+
+  line-height: 1.6;
+
+}
+
+/* Header */
+
+header {
+
+  background-color: #1e3a8a;
+
+  color: white;
+
+  padding: 20px 40px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+header nav a {
